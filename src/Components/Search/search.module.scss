@@ -1,0 +1,17 @@
+.search {
+  height: 52px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  outline: 0;
+  border: 1px solid #666;
+  color: #B2B7BF;
+  background: url('../../assets/icons/search.png') 98% center no-repeat #5A5C66;
+
+  @media screen and (min-width: 773px) {
+    width: 631px;
+  }
+  @media screen and (max-width: 772px) {
+    width: 100%;
+  }
+}
+
